@@ -6,12 +6,16 @@ p{
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Roboto' sans-serif;
+    
 }
 
 body{
     background-color:whitesmoke;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Lemonada', cursive;
+}
+
+h1{
+    text-align: center;
 }
 
 hr{
@@ -22,6 +26,11 @@ a{
     text-decoration: none; color: green;
 }
 
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
 .cor_verde{
     color:green;
 }
@@ -29,4 +38,5 @@ a{
 #cor_azul{
     color:blue;
 }
+
 
