@@ -1,0 +1,32 @@
+
+
+/*propriedades do texto*/
+p{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+}
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Roboto' sans-serif;
+}
+
+hr{
+    border-top: 3px dashed red;
+}
+
+a{
+    text-decoration: none; color: green;
+}
+
+.cor_verde{
+    color:green;
+}
+
+#cor_azul{
+    color:blue;
+}
+
