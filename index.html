@@ -6,9 +6,27 @@
     <title>Meu segundo site</title>
     <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript">
+        function olaMundo() {
+            if (confirm("olá")) {
+
+
+                var numero = 10;
+                for (var i = numero; i < numero; i--) {
+                    numero -= i;
+                }
+                alert("O numero é:" + numero);
+            }
+            else {
+                alert("Você clicou em não");
+            }
+        }
+    </script>
+    
+    <script src="js/meuscript.js"></script>
 </head>
 
-<body>
+<body onload="olaMundo();">
     <!-- Isto é um comentário 
     <h1>Olá Mundo</h1>
 
@@ -38,6 +56,7 @@
     </div>
     -->
 
+
     <div>
         <div class="cabecalho">
             <img src="imagens/naruto.png">
@@ -46,8 +65,8 @@
         <div class="barra_lateral">
             <h3>MENU</h3>
             <ul>
+                <li><a href="www.google.com.br" target="_blanck"> Google </a></li>
                 <li><a href="www.google.com.br"> Google </a></li>
-                <li><a href="www.google.com.br"> Google </a></li>          
                 <li><a href="www.google.com.br"> Google </a></li>
             </ul>
         </div>
@@ -60,16 +79,26 @@
         </div>
 
         <div class="noticia">
-                <img src="imagens/logo.png">
-                <p>Curabitur nisl nunc, iaculis ac volutpat ut, fringilla et libero. Curabitur viverra tellus sit amet sollicitudin semper. Nullam eu lobortis nisl. Praesent urna mi, imperdiet at iaculis sit amet, tincidunt sed ligula. Nunc tempor nulla sit amet magna feugiat, commodo vulputate tellus dapibus. Vivamus dui quam, porttitor vel mattis a, malesuada vel elit. Vestibulum et arcu vitae est aliquam ultrices non vitae purus. In hac habitasse platea dictumst. Nunc eu sapien eu lorem sagittis euismod non nec ex. Sed sed nulla eget leo bibendum maximus. Morbi interdum dui ut ligula blandit sagittis.
-                </p>
-                <p>Curabitur nisl nunc, iaculis ac volutpat ut, fringilla et libero. Curabitur viverra tellus sit amet sollicitudin semper. Nullam eu lobortis nisl. Praesent urna mi, imperdiet at iaculis sit amet, tincidunt sed ligula. Nunc tempor nulla sit amet magna feugiat, commodo vulputate tellus dapibus. Vivamus dui quam, porttitor vel mattis a, malesuada vel elit. Vestibulum et arcu vitae est aliquam ultrices non vitae purus. In hac habitasse platea dictumst. Nunc eu sapien eu lorem sagittis euismod non nec ex. Sed sed nulla eget leo bibendum maximus. Morbi interdum dui ut ligula blandit sagittis.
-                </p>        
-            </div>
+            <img src="imagens/logo.png">
+            <p>Curabitur nisl nunc, iaculis ac volutpat ut, fringilla et libero. Curabitur viverra tellus sit amet
+                sollicitudin semper. Nullam eu lobortis nisl. Praesent urna mi, imperdiet at iaculis sit amet, tincidunt
+                sed ligula. Nunc tempor nulla sit amet magna feugiat, commodo vulputate tellus dapibus. Vivamus dui
+                quam, porttitor vel mattis a, malesuada vel elit. Vestibulum et arcu vitae est aliquam ultrices non
+                vitae purus. In hac habitasse platea dictumst. Nunc eu sapien eu lorem sagittis euismod non nec ex. Sed
+                sed nulla eget leo bibendum maximus. Morbi interdum dui ut ligula blandit sagittis.
+            </p>
+            <p>Curabitur nisl nunc, iaculis ac volutpat ut, fringilla et libero. Curabitur viverra tellus sit amet
+                sollicitudin semper. Nullam eu lobortis nisl. Praesent urna mi, imperdiet at iaculis sit amet, tincidunt
+                sed ligula. Nunc tempor nulla sit amet magna feugiat, commodo vulputate tellus dapibus. Vivamus dui
+                quam, porttitor vel mattis a, malesuada vel elit. Vestibulum et arcu vitae est aliquam ultrices non
+                vitae purus. In hac habitasse platea dictumst. Nunc eu sapien eu lorem sagittis euismod non nec ex. Sed
+                sed nulla eget leo bibendum maximus. Morbi interdum dui ut ligula blandit sagittis.
+            </p>
+        </div>
 
-            <div class="rodape">
-                    Copyright 2020 - Todos os direitos reservados.
-            </div>
+        <div class="rodape">
+            Copyright 2020 - Todos os direitos reservados.
+        </div>
 
 
     </div>
