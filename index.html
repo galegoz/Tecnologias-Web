@@ -6,7 +6,7 @@
     <title>Meu segundo site</title>
     <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-    <script type="text/javascript">
+    <!----   <script type="text/javascript">
         function olaMundo() {
             if (confirm("olá")) {
 
@@ -21,8 +21,8 @@
                 alert("Você clicou em não");
             }
         }
-    </script>
-    
+    </script>-->
+
     <script src="js/meuscript.js"></script>
 </head>
 
@@ -57,19 +57,28 @@
     -->
 
 
-    <div>
-        <div class="cabecalho">
-            <img src="imagens/naruto.png">
-        </div>
+    <header>
+        <div>
+            <div class="cabecalho">
+                <img src="imagens/naruto.png">
+            </div>
+    </header>
+
+
+    <nav class="menu" id="idMenu"></nav>
+
+    <main>
 
         <div class="barra_lateral">
             <h3>MENU</h3>
             <ul>
-                <li><a href="www.google.com.br" target="_blanck"> Google </a></li>
-                <li><a href="www.google.com.br"> Google </a></li>
-                <li><a href="www.google.com.br"> Google </a></li>
+                <li><a href="www.google.com.br" target="_blanck"> Google </a></li><br>
+                <li><a href="www.google.com.br"> Google </a></li><br>
+                <li><a href="www.google.com.br"> Google </a></li><br>
             </ul>
         </div>
+
+        </nav>
 
         <div class="video">
 
@@ -96,9 +105,44 @@
             </p>
         </div>
 
+        <table class="akatsuki" align="center">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Sasori</td>
+                    <td>sasori@email.com</td>
+                    <td>(21) 9999-8888</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Pain</td>
+                    <td>pain@mail.com</td>
+                    <td>(81) 8787-8686</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Tobi</td>
+                    <td>tobi@meuemail.com</td>
+                    <td>(84) 3232-3232</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
         <div class="rodape">
             Copyright 2020 - Todos os direitos reservados.
         </div>
+    </footer>
 
 
     </div>
